@@ -111,13 +111,13 @@ func Equal(src, dst Object) bool {
 }
 
 // Returns a guess at the mime type from the extension
-func MimeType(o Object) string {
-	mimeType := mime.TypeByExtension(path.Ext(o.Remote()))
-	if mimeType == "" {
-		mimeType = "application/octet-stream"
-	}
-	return mimeType
-}
+//func MimeType(o Object) string {
+//	mimeType := mime.TypeByExtension(path.Ext(o.Remote()))
+//	if mimeType == "" {
+//		mimeType = "application/octet-stream"
+//	}
+//	return mimeType
+//}
 
 // Used to remove a failed copy
 //
