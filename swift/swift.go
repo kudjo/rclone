@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ncw/rclone/fs"
-	"github.com/ncw/swift"
+	"github.com/sava/rclone/fs"
+	"github.com/sava/swift"
 )
 
 // Register with Fs
