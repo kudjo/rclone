@@ -19,7 +19,7 @@ import (
 	"google.golang.org/api/googleapi"
 
 	"github.com/ncw/rclone/fs"
-	//"github.com/ncw/rclone/googleauth"
+	"github.com/ncw/rclone/googleauth"
 	"github.com/ogier/pflag"
 )
 
